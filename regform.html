@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" style="color:salmon">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="schedule.html" class="nav-link" style="color:salmon">SCHEDULE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="regform.html" class="nav-link" style="color:salmon">REGISTRATION FORM</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link" style="color:salmon">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-12 bg-success">
+            <h2 style="text-align:center;">REGISTRATION FORM</h2>
+        </div>
+    </div>
+    <form action="" method="get">
+        NAME:<input type="text" name="studentname" placeholder="Enter name"><br><br>
+        ROLL NUMBER:<input type="text" name="studentnumber" placeholder="Enter roll number"><br><br>
+        E-MAIL ID:<input type="text" name="emailid" placeholder="Enter e-mail id"><br><br>
+        PHONE NUMBER:</b><input type="text" name="phonenumber" placeholder="Enter phone number"><br><br>
+        YEAR:<input type="text" name="year" placeholder="enter the year of study"><br><br>
+        <b>DEPARTMENT:</b>
+                    <select name="branch">
+                        <option value="IT">Information Technology</option>
+                        <option value="CSE">Computer Science </option>
+                        <option value="EEE">Electrical and Electronics</option>
+                        <option value="ECE">Electronics & Communication</option>
+                        <option value="CT">Computer Technology</option>
+                        <option value="EIE">Electrical and Instrumentation</option>
+                        <option value="FT">Food Technology</option>
+                        <option value="MT">Mechatronics</option>
+                        <option value="MECH">Mechanical</option>
+                        <option value="CIVIL">Civil</option>
+                    </select><br><br>
+                    <b>TECHNICAL EVENT:</b>
+                       <select name="event">
+                           <option value="pp">paper Presentation</option>
+                           <option value="debug">Debugging</option>
+                           <option value="pro">project Presentation</option>
+                           <option value="code">Coding Event</option>
+                       </select><br><br>
+                       <b>NON TECHNICAL EVENT:</b>
+                   <select name="event">
+                       <option value="eye">Eye on the ball</option>
+                       <option value="quiz">Quiz</option>
+                       <option value="debate">Debate competition</option>
+                   </select><br><br>
+                   <input type="button" class="btn btn-warning" value="submit">
+
+
+    </form>
+    
+</body>
+</html>
